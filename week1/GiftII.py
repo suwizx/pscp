@@ -1,14 +1,20 @@
 """docstring"""
 
-GIFTS = []
+def check():
+    "just checking"
+    promp = int(input())
+    if not promp % 2:
+        print(promp)
 
 def main():
     "main"
-    for _ in range(8):
-        prompt = int(input())
-        GIFTS.append(prompt)
+    check()
+    check()
+    check()
+    check()
+    check()
+    check()
+    check()
+    check()
 
-    for gift in GIFTS:
-        if not gift % 2:
-            print(gift)
 main()
